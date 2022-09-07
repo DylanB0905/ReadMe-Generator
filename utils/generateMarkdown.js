@@ -39,7 +39,7 @@ function renderLicenseSection(license) {
 
 //function that returns license in Table of Contents
 // if no license is seleceted return an empty string
-function renderLicenseTOC(license) {
+function renderLicenseTable(license) {
   if (license !== 'no license') {
   return `
   * [License](#license)
@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  ${renderLicenseTOC(data.license)}
+  ${renderLicenseTable(data.license)}
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
