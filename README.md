@@ -15,7 +15,7 @@
   I created this project to help myself and other developers to be able to make a nice and neat readme file
   
   ## [Installation](#table-of-contents)
-  github.com/repo/testing
+  https://github.com/DylanB0905/ReadMe-Generator
   
   ## [Usage](#table-of-contents)
   Instructions to use are pretty simple. just open up a terminal in the root of the app and type node index.js then answer all the questions
